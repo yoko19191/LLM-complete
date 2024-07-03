@@ -4,6 +4,7 @@ import streamlit as st
 import json
 import requests
 
+st.set_page_config(page_title="利用openai和streamlit复刻一个聊天机器人", page_icon="🚀", layout="wide")
 
 st.title('💬十分钟编写大模型应用')
 st.caption("🚀 利用openai和streamlit复刻一个聊天机器人")

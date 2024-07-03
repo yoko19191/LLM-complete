@@ -5,6 +5,7 @@ import tempfile
 from GPT import PowerpointAI
 from pathlib import Path
 
+st.set_page_config(page_title="AI自动生成PPT", page_icon="💬", layout="wide")
 
 st.title('💬十分钟编写大模型应用')
 st.caption("🚀 AI自动生成PPT")

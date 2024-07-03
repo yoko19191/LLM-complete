@@ -4,6 +4,7 @@ import os
 import tempfile
 from rag import ChatDoc
 
+st.set_page_config(page_title="私有知识库聊天", page_icon="🚀", layout="wide")
 
 st.title('💬十分钟编写大模型应用')
 st.caption("🚀 和私有知识库聊天")

@@ -4,6 +4,7 @@ import os
 import tempfile
 from gpt import ChatAI
 
+st.set_page_config(page_title="整合私有知识库和网络搜索", page_icon="🚀", layout="wide")
 
 st.title('💬十分钟编写大模型应用')
 st.caption("🚀 整合私有知识库和网络搜索")

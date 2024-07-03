@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 from GPT import DataAI
 
+st.set_page_config('自动分析Excel数据', page_icon="🚀")
 
 st.title('💬十分钟编写大模型应用')
 st.caption("🚀 自动分析Excel数据")

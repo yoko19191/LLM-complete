@@ -2,6 +2,8 @@ import streamlit as st
 import ai
 
 
+st.set_page_config(page_title="中英双语写作助手", page_icon="💬", layout="wide")
+
 st.title('💬十分钟编写大模型应用')
 st.caption("🚀 中英双语写作助手")
 
