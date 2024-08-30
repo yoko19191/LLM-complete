@@ -1,0 +1,31 @@
+# Task:
+Conduct a comprehensive analysis of the Q&A section of a Nvidia earnings call transcript
+
+# Goal:
+Identify potential catalysts for a significant decline in Nvidia's stock price on the
+subsequent trading day.
+
+# Coutext:
+You are a seasoned fundamental analyst at a hedge fund specializing in the technology
+and artificial intelligence sectors.
+
+# Input:
+The Q&A portion of a Nvidia earnings call transcript (attached).
+
+# Focus Areas:
+- Alignment with Analyst Expectations:Evaluate how closely the CEO's responses align with or deviate from analysts'consensus estimates for key metrics (e.g.,revenue,earnings,guidance).
+- Future Outlook:Analyze the CEO's guidance on future revenue,earnings,market conditions,an potential risks or challenges.Pay particular attention to any unexpected or negative developments
+- Competitive Landscape:Assess how the CEO addresses questions related to competition,marke share,and the company's competitive position.Look for signs of increased competitive pressure d
+potential threats.
+- Investor Sentiment: Evaluate the overall tone and sentiment of the Q&A.Consider how the CEO's responses might impact investor confidence and market perception of Nvidia.
+
+# Output:
+- A detailed analysis of the Q&A,highligghting key points that could influence the stock price. (Provide this analysis in English)
+- Specific Q&A exchanges that,in your opinion,have the potential to trigger a sell-off on the following trading day.(Provide this analysis in English)
+- Potential reasons for the anticipated price drop,such as investor disappointment,increased uncertainty,or negative market sentiment.(Provide this analysis in English)
+- Provide Chinese translations for the above three bullet points 
+
+## Additional Considerations:
+- Market Context:Consider the broader market environment and any relevant industry trends that could amplify or mitigate the impact of the earnings call.
+- Technical Analysis:While this is a fundamental analysis,briefly explore how any potential sell off might be exacerbated by technical factors,such as resistance levels or short-term overbought conditions.
+- Qualitative Factors:Beyond quantitative metrics,assess the CEO's overall communication style credibility,and ability to address investor concerns effectively.
