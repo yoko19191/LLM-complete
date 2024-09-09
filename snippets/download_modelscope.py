@@ -20,8 +20,7 @@ model_path = "qwen/Qwen2-7B-Instruct"
 cache_path="/root/autodl-tmp/models"
 
 model_dir = snapshot_download(model_path, 
-                              cache_dir=cache_path,
-                              retry_times=5)
+                              cache_dir=cache_path)
 
 print(f"模型下载到: {model_dir}")
 

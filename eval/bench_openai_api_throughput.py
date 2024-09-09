@@ -38,7 +38,10 @@ class LLMInferenceTest:
         start_time = time.perf_counter()
         async with session.post(
             self.endpoint,
-            headers={"Authorization": f"Bearer {self.api_key}"},
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {self.api_key}"
+            },
             json = {
                 "model": self.model,
                 "messages": messages
@@ -135,7 +138,7 @@ if __name__ == "__main__":
     ]
 
     # Configuration
-    model = "gpt-4o-mini"
+    model = "deepseek-chat"
     num_requests = 10
     max_concurrency = 32
 
