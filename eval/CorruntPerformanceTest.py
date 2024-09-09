@@ -139,12 +139,14 @@ if __name__ == "__main__":
     num_requests = 10
     max_concurrency = 32
 
-    base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com")
+    #base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com")
+    
+    base_url = "https://api.xi-ai.cn"
     
     # Initialize and run the test
     test = LLMInferenceTest(
         endpoint = f"{base_url}/v1/chat/completions",
-        api_key=os.getenv("OPENAI_API_KEY"),
+        api_key="sk-4J6sXggR7YdslyOtAe9c0aEa72654cDf92A42fDc012031A4",
         prompts=prompts,
         model=model,
         num_requests=num_requests,
